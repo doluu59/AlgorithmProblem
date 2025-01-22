@@ -6,11 +6,9 @@
  * @classification 완전 탐색
  */
 
-package programmers.high_score_kit;
+package JAVA.BruteForceSearch.Programmers.high_score_kit;
 
-import java.util.*;
-
-public class MinRectangle {
+public class PG_lv1_최소직사각형 {
     public long solution(int[][] sizes) {
         int x = Integer.MIN_VALUE;
         int y = Integer.MIN_VALUE;

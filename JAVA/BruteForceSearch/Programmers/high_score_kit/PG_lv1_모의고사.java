@@ -6,12 +6,11 @@
  * @classification 완전 탐색
  */
 
-package programmers.high_score_kit;
+package JAVA.BruteForceSearch.Programmers.high_score_kit;
 
 import java.util.*;
-import java.io.*;
 
-public class MockTest {
+public class PG_lv1_모의고사 {
     public int[] solution(int[] answers) {
         int[] answer = {};
         int a=0;
