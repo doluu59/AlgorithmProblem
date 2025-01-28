@@ -6,7 +6,7 @@
  * @classification 완전 탐색
  */
 
-package JAVA.BruteForceSearch.Programmers.high_score_kit;
+package JAVA.BruteForceSearch.PG.high_score_kit;
 
 public class PG_lv1_최소직사각형 {
     public long solution(int[][] sizes) {

@@ -6,7 +6,7 @@
  * @classification BFS
  */
 
-package JAVA.DFSnBFS.Programmers.high_score_kit;
+package JAVA.DFSnBFS.PG.high_score_kit;
 
 import java.util.*;
 public class PG_lv2_게임맵최단거리 {

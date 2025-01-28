@@ -6,7 +6,7 @@
  * @classification 해쉬
  */
 
-package JAVA.Hash.Programmers.hihg_score_kit;
+package JAVA.Hash.PG.high_score_kit;
 
 import java.util.*;
 

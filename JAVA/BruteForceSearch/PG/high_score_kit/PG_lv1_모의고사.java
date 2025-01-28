@@ -6,7 +6,7 @@
  * @classification 완전 탐색
  */
 
-package JAVA.BruteForceSearch.Programmers.high_score_kit;
+package JAVA.BruteForceSearch.PG.high_score_kit;
 
 import java.util.*;
 

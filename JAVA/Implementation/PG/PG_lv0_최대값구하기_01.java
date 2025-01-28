@@ -6,7 +6,7 @@
  * @classification 단순 구현
  */
 
-package JAVA.Implementation.Programmers.Level_0;
+package JAVA.Implementation.PG;
 
 /**
  * @idea : 최대값과 두번쨰 최대값을 구해서 곱하기 (음수가 없기 떄문)
