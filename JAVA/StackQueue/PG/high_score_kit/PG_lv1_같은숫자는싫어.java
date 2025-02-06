@@ -6,7 +6,7 @@
  * @classification 스택
  */
 
-package JAVA.StackAndQueue.PG.high_score_kit;
+package JAVA.StackQueue.PG.high_score_kit;
 
 import java.util.*;
 
