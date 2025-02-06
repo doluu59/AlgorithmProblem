@@ -1,12 +1,12 @@
 /**
  * @from Programmers
- * @index
+ * @index high_score_kit
  * @title 최소 직사각형
  * @grade Level 1
  * @classification 완전 탐색
  */
 
-package JAVA.BruteForceSearch.PG.high_score_kit;
+package JAVA.BruteForceSearch;
 
 public class PG_lv1_최소직사각형 {
     public long solution(int[][] sizes) {

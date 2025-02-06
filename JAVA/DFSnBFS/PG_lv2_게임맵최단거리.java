@@ -1,12 +1,12 @@
 /**
  * @from Programmers
- * @index
+ * @index high_score_kit
  * @title 게임 맵 최단 거리
  * @grade Level 2
  * @classification BFS
  */
 
-package JAVA.DFSnBFS.PG.high_score_kit;
+package JAVA.DFSnBFS;
 
 import java.util.*;
 public class PG_lv2_게임맵최단거리 {

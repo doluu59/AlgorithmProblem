@@ -1,4 +1,4 @@
-package JAVA.SlidingWindow.BOJ;
+package JAVA.SlidingWindow;
 
 import java.io.*;
 import java.util.ArrayDeque;

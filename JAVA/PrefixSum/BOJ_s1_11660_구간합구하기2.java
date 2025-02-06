@@ -1,4 +1,4 @@
-package JAVA.PrefixSum.BOJ;
+package JAVA.PrefixSum;
 
 import java.io.*;
 import java.util.StringTokenizer;

@@ -1,12 +1,12 @@
 /**
  * @from Programmers
- * @index
+ * @index high score kit
  * @title 같은 숫자는 싫어
  * @grade Level 1
  * @classification 스택
  */
 
-package JAVA.StackQueue.PG.high_score_kit;
+package JAVA.StackQueue.Stack;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package JAVA.StackQueue.BOJ;
+package JAVA.StackQueue.Stack;
 
 import java.io.BufferedReader;
 import java.io.IOException;

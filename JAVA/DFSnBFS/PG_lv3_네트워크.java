@@ -1,12 +1,12 @@
 /**
  * @from Programmers
- * @index
+ * @index high_score_kit
  * @title 네트워크
  * @grade Level 3
  * @classification DFS
  */
 
-package JAVA.DFSnBFS.PG.high_score_kit;
+package JAVA.DFSnBFS;
 
 import java.util.*;
 

@@ -1,12 +1,12 @@
 /**
  * @from Programmers
- * @index
+ * @index high_score_kit
  * @title 모의고사
  * @grade Level 1
  * @classification 완전 탐색
  */
 
-package JAVA.BruteForceSearch.PG.high_score_kit;
+package JAVA.BruteForceSearch;
 
 import java.util.*;
 

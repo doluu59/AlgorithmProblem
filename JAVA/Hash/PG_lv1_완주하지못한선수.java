@@ -1,12 +1,12 @@
 /**
  * @from Programmers
- * @index
+ * @index high_score_kit
  * @title 완주하지 못한 선수
  * @grade Level 1
  * @classification 해쉬
  */
 
-package JAVA.Hash.PG.high_score_kit;
+package JAVA.Hash;
 
 import java.util.*;
 

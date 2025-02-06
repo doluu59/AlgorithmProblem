@@ -1,4 +1,4 @@
-package JAVA.Sorting.BOJ;
+package JAVA.Sorting;
 
 /**
  * @from BOJ

@@ -1,4 +1,4 @@
-package JAVA.Implementation.BOJ;
+package JAVA.Implementation;
 
 import java.io.BufferedReader;
 import java.io.IOException;
