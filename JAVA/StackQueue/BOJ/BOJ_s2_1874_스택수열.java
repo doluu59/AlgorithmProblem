@@ -4,12 +4,12 @@ import java.io.*;
 import java.util.Stack;
 
 /**
- * @from
- * @index
- * @title
- * @grade
- * @classification
- * @solve
+ * @from BOJ
+ * @index 1874
+ * @title 스택 수열
+ * @grade Silver 2
+ * @classification 스택
+ * @solve 스택 구현
  */
 public class BOJ_s2_1874_스택수열 {
     public static void main(String[] args) throws IOException {
