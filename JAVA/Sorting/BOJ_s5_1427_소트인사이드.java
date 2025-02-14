@@ -13,7 +13,7 @@ import java.io.InputStreamReader;
  * @solve Bubble, Selection Sort 다 사용 가능
  */
 
-public class BOJ_1427_소트인사이드 {
+public class BOJ_s5_1427_소트인사이드 {
     public static int[] arr;
 
     public static void main(String[] args) throws IOException {
