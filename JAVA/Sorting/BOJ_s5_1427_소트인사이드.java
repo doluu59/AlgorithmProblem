@@ -30,6 +30,8 @@ public class BOJ_s5_1427_소트인사이드 {
 //        bubbleSort();
         // Selection Sort
         selectionSort();
+        // Insertion Sort
+//        insertionSort();
 
         // output
         StringBuilder sb = new StringBuilder();
@@ -52,7 +54,7 @@ public class BOJ_s5_1427_소트인사이드 {
         }
     }
 
-    // selection Sort
+    // Selection Sort
     public static void selectionSort() {
         for (int i=0; i<arr.length; i++) {
             // find Min Value
@@ -70,4 +72,16 @@ public class BOJ_s5_1427_소트인사이드 {
         }
     }
 
+    // Insertion Sort
+    public static void insertionSort() {
+        for (int i=0; i < arr.length; i++) {
+            for (int j=i; j>0; j--) {
+                if (arr[j] > arr[j-1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j-1];
+                    arr[j-1] = temp;
+                }
+            }
+        }
+    }
 }
