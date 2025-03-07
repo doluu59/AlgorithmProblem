@@ -17,11 +17,8 @@ import java.util.*;
  *          그 중 가장 길이가 긴 노드에서 가장 먼 노드를 한번 더 BFS로 구함
  */
 public class BOJ_g2_1167_트리의지름 {
-
     private static int N;
     private static List<Edge>[] adjNodes;
-
-    private static int maxIdx = 0;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
