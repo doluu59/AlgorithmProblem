@@ -6,7 +6,7 @@
  * @classification 완전 탐색
  */
 
-package JAVA.BruteForceSearch;
+package JAVA.Search.BruteForceSearch;
 
 import java.util.*;
 
