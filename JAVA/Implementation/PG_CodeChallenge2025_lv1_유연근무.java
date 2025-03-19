@@ -8,7 +8,7 @@ package JAVA.Implementation;
  * @classification Implementation
  * @solve 단순 구현
  */
-public class PG_lv1_유연근무 {
+public class PG_CodeChallenge2025_lv1_유연근무 {
     public static void main(String[] args) {
         Solution sol = new Solution();
     }
