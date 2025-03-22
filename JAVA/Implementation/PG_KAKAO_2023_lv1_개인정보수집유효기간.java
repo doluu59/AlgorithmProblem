@@ -11,7 +11,7 @@ package JAVA.Implementation;
 
 import java.util.*;
 
-public class PG_KAKAO2023_lv1_개인정보수집유효기간 {
+public class PG_KAKAO_2023_lv1_개인정보수집유효기간 {
     public static void main(String[] args) {
         Solution sol = new Solution();
     }

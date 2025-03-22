@@ -10,7 +10,7 @@ import java.util.*;
  * @classification Implementation, SI
  * @solve
  */
-public class PG_KAKAO2024Winter_lv1_가장많이받은선물 {
+public class PG_KAKAO_2024_lv1_가장많이받은선물 {
     public static void main(String[] args) {
         Solution sol = new Solution();
     }
