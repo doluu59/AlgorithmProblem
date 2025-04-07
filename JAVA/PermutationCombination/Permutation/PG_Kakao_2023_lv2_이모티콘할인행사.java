@@ -1,4 +1,4 @@
-package JAVA.PermutationAndCombination.Permutation;
+package JAVA.PermutationCombination.Permutation;
 
 /**
  * @from Programmers
