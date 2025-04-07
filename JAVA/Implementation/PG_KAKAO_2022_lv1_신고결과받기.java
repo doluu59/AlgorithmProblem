@@ -11,7 +11,6 @@ import java.util.*;
 public class PG_KAKAO_2022_lv1_신고결과받기 {
     public static void main(String[] args) {
         Solution sol = new Solution();
-        System.out.println(sol.solution());
     }
 
     static class Solution {
