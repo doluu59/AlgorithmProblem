@@ -6,9 +6,7 @@
  * @classification DFS
  */
 
-package JAVA.DFSnBFS;
-
-import java.util.*;
+package JAVA.BruteForce;
 
 public class PG_lv3_네트워크 {
     static int N;

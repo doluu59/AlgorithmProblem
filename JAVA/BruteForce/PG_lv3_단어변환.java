@@ -1,4 +1,4 @@
-package JAVA.DFSnBFS;
+package JAVA.BruteForce;
 
 /**
  * @from Programmers

@@ -1,4 +1,4 @@
-package JAVA.DFSnBFS;
+package JAVA.BruteForce;
 
 import java.io.BufferedReader;
 import java.io.IOException;
