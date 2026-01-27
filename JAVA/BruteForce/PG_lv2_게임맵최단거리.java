@@ -6,7 +6,7 @@
  * @classification BFS
  */
 
-package JAVA.DFSnBFS;
+package JAVA.BruteForce;
 
 import java.util.*;
 public class PG_lv2_게임맵최단거리 {
