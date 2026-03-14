@@ -4,7 +4,7 @@
 
 ### 🚦 Code Review Workflow
 1. **Issue 발행**: 구현해야 할 기능이나 알고리즘 문제 정의
-2. **Feature 브랜치 생성**: `main` 브랜치 보호를 위해 기능 단위 브랜치 운용
+2. **Develop 브랜치 생성**: `main` 브랜치 보호를 위해 기능 단위 브랜치 운용
 3. **Pull Request (PR) 생성**: 코드 작성 후 Self-Review 진행
 4. **AI Feedback 수렴**: 성능, 가독성, 안정성(Edge Case) 측면에서 피드백 수집
 5. **Refactoring**: 지적된 사항을 반영하여 커밋 추가 (P1~P4 레벨 분류 적용)
