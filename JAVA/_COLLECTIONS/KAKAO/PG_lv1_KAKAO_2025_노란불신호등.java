@@ -15,6 +15,11 @@ package JAVA._COLLECTIONS.KAKAO;
 public class PG_lv1_KAKAO_2025_노란불신호등 {
     public static void main(String[] args) {
         class Solution {
+            // 매직 넘버 방지를 위한 상수 선언
+            private static final int GREEN = 0;
+            private static final int YELLOW = 1;
+            private static final int RED = 2;
+
             public int solution(int[][] signals) {
                 int n = signals.length;
 
@@ -30,12 +35,16 @@ public class PG_lv1_KAKAO_2025_노란불신호등 {
                 int[] counts = new int[limit + 1];  // i 초에 켜진 노란 신호등 개수
                 // 신호등마다 노란 신호등 키기
                 for (int i = 0; i < n; i++) {
-                    int g = signals[i][0];
-                    int y = signals[i][1];
+                    int g = signals[i][GREEN];
+                    int y = signals[i][YELLOW];
 
                     for (int cycle = 1; cycle <= limit; cycle += gyrCycle[i]) {
                         for (int yDur = 0; yDur < y; yDur++) {
-                            counts[cycle + g + yDur] ++;
+                            int targetTime = cycle + g + yDur;
+                            // [P1] 인덱스 초과 방지 로직 추가
+                            if (targetTime <= limit) {
+                                counts[targetTime]++;
+                            }
                         }
                     }
                 }
