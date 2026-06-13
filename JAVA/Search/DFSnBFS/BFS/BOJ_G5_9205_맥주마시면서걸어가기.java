@@ -12,7 +12,16 @@ package JAVA.Search.DFSnBFS.BFS;
  * @author   ysyoo
  * @since    2026-06-12
  */
- 
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.util.ArrayDeque;
+import java.util.Queue;
+import java.util.StringTokenizer;
+
 public class BOJ_G5_9205_맥주마시면서걸어가기 {
 	static int storeN;			// 편의점 수
 	static Pos[] store;			// 편의점
