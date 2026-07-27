@@ -19,8 +19,7 @@ public class PG_lv0_기초_문자개수세기 {
 	class Solution {
 		public int[] solution(String my_string) {
 			int[] answer = new int[52];
-			for (int i=0; i<my_string.length(); i++) {
-				char ch = my_string.charAt(i);
+			for (char ch : my_string.toCharArray()) {
 				if (ch >= 'A' && ch <= 'Z') {
 					answer[ch-'A'] ++;
 				} else {
