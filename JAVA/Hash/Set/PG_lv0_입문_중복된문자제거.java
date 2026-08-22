@@ -1,4 +1,4 @@
-package JAVA.Hash;
+package JAVA.Hash.Set;
 
 /**
  * [PG] 입문. 중복된문자제거 (lv0)
