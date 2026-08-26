@@ -13,7 +13,7 @@ package JAVA._Practice;
  * @since    26. 8. 26.
  */
  
-public class c {
+public class PG_lv0_기초_특정문자열로끝나는가장긴부분문자열찾기 {
 	public static void main(String[] args){
 	}
 	static class Solution {
