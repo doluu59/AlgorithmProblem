@@ -25,9 +25,9 @@ public class PG_lv0_기초_코드처리하기 {
 			for (int i=0; i<code.length(); i++) {
 				if (code.charAt(i)=='1') {
 					mode = mode == 0 ? 1 : 0;
-				} else {
-					if (mode == i%2) sb.append(code.charAt(i));
+					continue;
 				}
+				if (mode == i%2) sb.append(code.charAt(i));
 			}
 
 			if (sb.toString().isEmpty()) sb.append("EMPTY");
