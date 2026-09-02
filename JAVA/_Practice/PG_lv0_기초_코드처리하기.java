@@ -30,8 +30,7 @@ public class PG_lv0_기초_코드처리하기 {
 				if (mode == i%2) sb.append(code.charAt(i));
 			}
 
-			if (sb.toString().isEmpty()) sb.append("EMPTY");
-			return sb.toString();
+			return sb.toString().isEmpty() ? "EMPTY" : sb.toString();
 		}
 	}
 }
