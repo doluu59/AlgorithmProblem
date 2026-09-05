@@ -1,4 +1,4 @@
-package JAVA.Hash;
+package JAVA.Hash.Set;
 
 import java.util.*;
 
