@@ -1,4 +1,4 @@
-package JAVA._COLLECTIONS.KAKAO;
+package JAVA._COLLECTIONS.KAKAO._25.하반기_1차;
 
 /**
  * @author |   ysyoo
@@ -12,7 +12,7 @@ package JAVA._COLLECTIONS.KAKAO;
  * @technique |   개선 사항 : limit를 최소공배수로하면 더 좋아
  */
 
-public class PG_lv1_KAKAO_2025_노란불신호등 {
+public class PG_lv1_KAKAO_2025하반기1차_노란불신호등 {
     public static void main(String[] args) {
         class Solution {
             // 매직 넘버 방지를 위한 상수 선언
