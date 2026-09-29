@@ -25,4 +25,3 @@ public class PG_lv0_PCCE_2번_각도합치기 {
 		System.out.println(sum_angle);
 	}
 }
-}
