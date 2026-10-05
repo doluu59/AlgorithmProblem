@@ -18,14 +18,13 @@ public class PG_lv0_입문_캐릭터의좌표 {
 	}
 
 	static class Solution {
-		static int[] border = new int[4];
+		static int limitX;
+		static int limitY;
 		public int[] solution(String[] keyinput, int[] board) {
 			int[] answer = new int[2];
 
-			border[0] = board[0]/2;
-			border[1] = board[0]/2 * (-1);
-			border[2] = board[1]/2;
-			border[3] = board[1]/2 * (-1);
+			limitX = board[0]/2;
+			limitY = board[1]/2;
 
 			for (String input : keyinput) {
 				int[] delta = move(input);
@@ -57,8 +56,9 @@ public class PG_lv0_입문_캐릭터의좌표 {
 			return delta;
 		}
 
-		boolean isValid(int i, int j) {
-			return i >= border[1] && i <= border[0] && j >= border[3] && j <= border[2];
+		boolean isValid(int j, int i) {
+			return j >= limitX*(-1) && j <= limitX
+							&& i >= limitY*(-1) && i <= limitY;
 		}
 	}
 }
