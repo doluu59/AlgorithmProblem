@@ -6,7 +6,7 @@
  * @classification 해쉬
  */
 
-package JAVA.Hash;
+package JAVA.Hash.Map;
 
 import java.util.*;
 
