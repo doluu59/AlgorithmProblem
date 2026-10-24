@@ -30,7 +30,7 @@
 
 ## 🏃‍♂️ 챌린지 기록 (Daily Coding)
 - **시작일**: 2025년 12월 16일
-- **유지 기간**: **약 3개월** (2026.03.14 기준)
+- **유지 기간**: **약 10개월** (2026.10.24 기준)
 - **나의 다짐**: 실패를 두려워하지 않되, 실패로부터 원인을 분석하고 다시 궤도에 오르는 복원력을 유지합니다.
 
 ### ⚠️ 미이행 기록 (Exception Logs)
@@ -58,10 +58,20 @@
 현업의 협업 프로세스를 간접 체험하기 위해 **Conventional Commits** 전략을 사용합니다.
 
 - **Commit Message Type**:
-    - `Feat`: 새로운 문제 해결 코드 추가
-    - `Refactor`: 코드 리뷰 반영 및 로직/구조 개선
-    - `Fix`: 버그 수정 및 예외 처리 추가
-    - `Docs`: README 등 문서 수정
+### Commit Convention
+| Type | Purpose |
+|---|---|
+| solve | 새로운 알고리즘 문제 풀이 추가 |
+| fix | 기존 풀이의 오류/예외 처리 수정 |
+| perf | 시간/공간 복잡도 및 알고리즘 성능 최적화 |
+| refactor | 동작 변경 없이 코드 구조/가독성 개선 |
+| docs | Javadoc, README 등 문서 및 주석 수정 |
+| test | 테스트 코드 및 테스트 케이스 추가/수정 |
+| chore | 저장소 구조 및 기타 관리 작업 |
+| build | 빌드 및 의존성 관련 변경 |
+| ci | CI/CD 및 GitHub Actions 관련 변경 |
+| revert | 이전 커밋 되돌리기 |
+
 - **Workflow**: 
     - 문제 해결 시 `develop` 혹은 `feature` 브랜치에서 작업 후 PR 생성.
     - 모든 리뷰 대화(Conversation)가 **Resolved** 된 후에만 `main` 브랜치로 머지하여 깨끗한 히스토리 유지.
