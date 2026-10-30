@@ -4,7 +4,7 @@ package JAVA.Simulation;
  * [PG] 이진변환반복하기 | 월간코드챌린지 · Lv.2
  *
  * @category Simulation
- * @algorithm String, 구현
+ * @algorithm String, Base Conversion
  *
  * @implNote
  * - 문제 요약   : 2진수를 주어진 규칙에 따라 반복 변환하기
