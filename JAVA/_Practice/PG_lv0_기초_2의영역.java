@@ -1,9 +1,9 @@
-package JAVA.DataStructure.Linear.Array;
+package JAVA._Practice;
 
 /**
  * [PG] 2의 영역 | 기초 · Lv.0
  *
- * @category Data Structure
+ * @category Implementation
  * @algorithm Linear Search
  *
  * @implNote
