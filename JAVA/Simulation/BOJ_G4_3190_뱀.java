@@ -88,22 +88,21 @@ public class BOJ_G4_3190_뱀 {
 		return (i>=0 && i<N && j>=0 && j<N);
 	}
 
-}
-
-class Instruction {
-	int time;
-	char direction;
-	public Instruction(int time, char direction) {
-		this.time = time;
-		this.direction = direction;
+	static class Instruction {
+		int time;
+		char direction;
+		public Instruction(int time, char direction) {
+			this.time = time;
+			this.direction = direction;
+		}
 	}
-}
 
-class Pos {
-	int x; int y;
+	static class Pos {
+		int x; int y;
 
-	public Pos(int x, int y) {
-		this.x = x;
-		this.y = y;
+		public Pos(int x, int y) {
+			this.x = x;
+			this.y = y;
+		}
 	}
 }
